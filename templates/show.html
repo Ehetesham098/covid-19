@@ -30,53 +30,18 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-       
-      
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
   </nav>
 
   <div class="container">
-      <h2 class="text-center mt-3">Corona Virus Probability Detector using Machine Learning</h2>
-      <form action="/" method="POST">
-        <div class="form-group">
-          <label for="fever">Enter your body Temparature</label>
-          <input type="text" class="form-control" id="fever" name="fever" placeholder="Enter Fever Value">
-        </div>
-
-        <div class="form-group">
-            <label for="age">Enter Age Value</label>
-            <input type="text" class="form-control" id="age" name="age" placeholder="Enter your Age">
-          </div> 
-         
-        <div class="form-group">
-          <label for="pain">Body Pain</label>
-          <select class="form-control custom select" name="pain" id="pain">
-            <option value="0">No Pain</option>           
-            <option value="1">Severe Pain</option>           
-          </select>
-        </div>
-
-        <div class="form-group">
-            <label for="runnyNose">Runny Nose</label>
-            <select class="form-control custom select" name="runnyNose" id="runnyNose">
-              <option value="0">Yes</option>           
-              <option value="1">No</option>           
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="diffBreath">Breathing Difficulty/label>
-            <select class="form-control custom select" name="diffBreath" id="diffBreath">
-              <option value="-1">No Difficulty</option> 
-              <option value="0">Little Difficulty</option>          
-              <option value="1">Severe Difficulty</option>            
-            </select>
-          </div>
-        
-        <button class="btn btn-success" >Submit</button>
-        
-      </form>
+      <h2 class="text-center mt-3">Corona Virus Probability Detector</h2>
+      <p>Thank you for using COVID-19 probability detector.</p>
+    <p>Patient's probability of Infection is {{inf}}% Thank you </p>
+    <a href="/">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Go Back</button>
+  </a>
   </div>
 
     
